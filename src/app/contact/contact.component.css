@@ -1,0 +1,24 @@
+div.contact{
+    border:1px solid lightgray ;
+    box-shadow:0px 0px 5px 5px lightgrey;
+    padding: 10px 15px 10px 15px;
+    margin-top: 100px;
+    text-align: center;
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+span.sub-title {
+    font-weight: bold;
+    font-size: 200%;  
+    text-align: center; 
+}
+span.sub-title1{
+    font-weight: bold;
+    font-size: 1.2em;  
+    text-align: center; 
+}
+
+span.sub-title2 {
+    font-size: 1em;
+}

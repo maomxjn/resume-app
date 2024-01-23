@@ -1,0 +1,10 @@
+<div class="sub-title">Work Experince</div>
+<ul>
+    <li *ngFor="let exp of experiences">
+        <div class="experience">
+            <div class="detail-left"><p>{{exp.phase}}</p><span class="p-big">{{exp.company}}</span></div>
+            <div class="detail-right"><span class="p-big">{{exp.title}}</span><p>{{exp.detail}}</p></div>
+        </div>
+    </li>
+</ul>
+

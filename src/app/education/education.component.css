@@ -1,0 +1,45 @@
+div.education{
+    
+    display: flex;
+    flex-direction:row;
+}
+
+div.sub-title{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;   
+    text-align: center;
+}
+
+div.detail-left{
+    
+    display: block;
+    background-color: forestgreen;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    width: 30%;
+    margin-right:0px;
+    margin-bottom: 10pm;
+    color: #FFF;
+    box-shadow:0px 0px 5px 5px lightgray;
+
+}
+div.detail-right{
+    
+    display: block;
+    padding: 10px 15px 10px 15px;
+    text-align: left;
+    width: 70%;
+    margin-left:0px;
+    margin-bottom: 10pm;
+    box-shadow:0px 0px 5px 5px lightgray;
+}
+span.p-pig{
+    font-size:200%;
+
+}
+
+ul{
+    list-style-type: none;
+}

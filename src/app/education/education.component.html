@@ -1,0 +1,9 @@
+<div class="sub-title">Education</div>
+<ul>
+    <li *ngFor="let edu of educations">
+        <div class="education">
+            <div class="detail-left"><p>{{edu.phase}}</p><span class="p-big">{{edu.degree}}</span></div>
+            <div class="detail-right"><span class="p-big">{{edu.title}}</span><p>{{edu.detail}}</p></div>
+        </div>
+    </li>
+</ul>

@@ -1,0 +1,10 @@
+<div class="sub-title">Professional Skills</div>
+<div class="skills">
+    <div class="detail" *ngFor="let skill of skills">
+        <div class="detail-left">{{skill.name}} </div>
+        <div class="detail-right">{{skill.degree}} </div>
+        <div class="w3-border">
+            <div class="w3-grey" [style]="'height:12px;width:'+skill.degree+'%'"></div>
+        </div>
+    </div>
+</div>

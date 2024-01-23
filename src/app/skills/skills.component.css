@@ -1,0 +1,37 @@
+div.skills{
+    
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    border:1px solid lightgray ;
+    box-shadow:0px 0px 5px 5px lightgrey;
+    padding: 10px 15px 10px 15px;
+}
+
+div.sub-title{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+    font-weight: bold;
+    font-size: 1.2em;   
+    text-align: center;
+}
+
+div.detail{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em; 
+    width: 48%;
+}
+
+div.detail-left,div.w3-border{
+    text-align: left;
+    margin-right: 20px;
+}
+
+div.detail-right{
+    text-align: right;
+    margin-left: 20px;
+}
